@@ -137,7 +137,9 @@ func main() {
 				break
 			}
 		}
-		ctx.JSON(404, fmt.Sprint("Not Found (Acá tengo que devolver un NotFound"))
+		ctx.JSON(404, gin.H{
+			"error": "Not Found",
+		})
 	})
 	router.Run()
 }
