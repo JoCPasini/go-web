@@ -1,0 +1,13 @@
+{
+    "id": 3,
+    "codigoTransaccion": "C0D1G0-TR4Ns4cCi0N-3",
+    "moneda": [
+        "Dolar",
+        "Euro",
+        "Peso"
+    ],
+    "monto": 650,
+    "emisor": "Emisor 3",
+    "receptor": "Receptor 3",
+    "fechaTransaccion": "22/12/2021"
+}
